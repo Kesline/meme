@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header class="heading">
+      <h1 class="heading-title">Meme Generator</h1>
+    </header>
+    <main>
+        <form class="meme-form">
+        <div class="form-control">
+            <label for="image-url">Image URL</label>
+            <input type="text" name="image-url" id="image-url" />
+          </div>
+            <div class="form-control">
+              <label for="top-text">Top Text</label>
+              <input type="text" name="top-text" id="top-text" />
+            </div>
+            <div class="form-control">
+              <label for="bottom-text">Bottom Text</label>
+              <input type="text" name="bottom-text" id="bottom-text" />
+            </div>
+        <div class="meme-generator">
+            <button class="generate-meme-btn">Generate Meme</button>
+            <h2 class="meme-title">Loading...</h2>
+            <img src="https://i.imgflip.com/1ur9b0.jpg" alt="" class="meme-img"/>
+            <div class="meme-author"></div>
+        </div>
+          </form>
+            <h2 class="meme-text meme-text--top">Top Text</h2>
+            <h2 class="meme-text meme-text--bottom">Bottom Text</h2>
+                    <button type="submit">close</button>
+    </main>
+    <script src="path/to/vanilla.js"></script>
+  </body>
+</html>
